@@ -1,0 +1,81 @@
+Alpha 1
+Beta 5
+Gamma 5
+Delta 1
+DieSize 0 0 1000 1000
+NumInput 1
+Input INPUT0 0 100
+NumOutput 2
+Output OUTPUT0 1000 0
+Output OUTPUT1 1000 200
+FlipFlop 1 FF1 120 100 3
+Pin D 0 8
+Pin Q 5 8
+Pin CLK 10 40
+FlipFlop 1 FF2 100 100 3
+Pin D 80 50
+Pin Q 40 80
+Pin CLK 50 10
+FlipFlop 1 FF3 40 200 3
+Pin D 20 0
+Pin Q 55 24
+Pin CLK 16 25
+FlipFlop 1 FF4 80 100 3
+Pin D 50 85
+Pin Q 45 18
+Pin CLK 0 50
+FlipFlop 2 FF5 60  200 5
+Pin D0 0 9
+Pin D1 0 6
+Pin Q0 8 9
+Pin Q1 8 6
+Pin CLK 50 100
+NumInstances 3
+Inst C1 FF1 100 100
+Inst C2 FF3 300 0
+Inst C3 FF2 300 200
+NumNets 5
+Net N1 2
+Pin INPUT0
+Pin C1/D
+Net N2 3
+Pin C1/Q
+Pin C2/D
+Pin C3/D
+Net N3 2
+Pin C2/Q
+Pin OUTPUT0
+Net N4 2
+Pin C3/Q
+Pin OUTPUT1
+Net N5 3
+Pin C1/CLK
+Pin C2/CLK
+Pin C3/CLK
+BinWidth 250
+BinHeight 200
+BinMaxUtil 79
+PlacementRows 0 0 20 100 500
+PlacementRows 0 100 20 100 500
+PlacementRows 0 200 20 100 500
+PlacementRows 0 300 20 100 500
+PlacementRows 0 400 20 100 500
+PlacementRows 0 500 20 100 500
+PlacementRows 0 600 20 100 500
+PlacementRows 0 700 20 100 500
+PlacementRows 0 800 20 100 500
+PlacementRows 0 900 20 100 500
+DisplacementDelay 0.01
+QpinDelay FF1 1
+QpinDelay FF2 2
+QpinDelay FF3 2
+QpinDelay FF4 1
+QpinDelay FF5 3
+TimingSlack C1 D 3
+TimingSlack C2 D 7
+TimingSlack C3 D -10
+GatePower FF1 10
+GatePower FF2 17
+GatePower FF3 8
+GatePower FF4 10
+GatePower FF5 5

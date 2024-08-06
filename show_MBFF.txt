@@ -1,0 +1,10 @@
+C3:
+	lib: 	FF3
+	pos: 	299 -0.999968
+	size:	40 200
+	from:	C3 
+C4:
+	lib: 	FF5
+	pos: 	299.5 -0.5
+	size:	60 200
+	from:	C1 C2 

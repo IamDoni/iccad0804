@@ -1,0 +1,6 @@
+NetList have:	5
+	N1:	INPUT0  C1/D  
+	N2:	C1/Q  C2/D  C3/D  
+	N3:	C2/Q  OUTPUT0  
+	N4:	C3/Q  OUTPUT1  
+	N5:	C1/CLK  C2/CLK  C3/CLK  

@@ -1,0 +1,7 @@
+clk 0	:
+	name : C1	pos : (100,100
+		pin :  C1/D C1/Q C1/CLK
+	name : C2	pos : (300,0
+		pin :  C2/D C2/Q C2/CLK
+	name : C3	pos : (300,200
+		pin :  C3/D C3/Q C3/CLK

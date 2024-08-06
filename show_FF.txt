@@ -1,0 +1,33 @@
+C1:
+	model:	FF1
+	bit:	1
+	x_pox	100 -> 100	y_pos	100 -> 100
+	height:	100	width	120
+	pincout:	3
+		pin:	D:(100,108)	TimingSlack=3
+		pin:	Q:(105,108)	TimingSlack=0
+		pin:	CLK:(110,140)	TimingSlack=0
+	QpinDelay:	1
+	gate_power:	10
+C2:
+	model:	FF3
+	bit:	1
+	x_pox	300 -> 300	y_pos	0 -> 0
+	height:	200	width	40
+	pincout:	3
+		pin:	D:(320,0)	TimingSlack=7
+		pin:	Q:(355,24)	TimingSlack=0
+		pin:	CLK:(316,25)	TimingSlack=0
+	QpinDelay:	2
+	gate_power:	8
+C3:
+	model:	FF2
+	bit:	1
+	x_pox	300 -> 300	y_pos	200 -> 200
+	height:	100	width	100
+	pincout:	3
+		pin:	D:(380,250)	TimingSlack=-10
+		pin:	Q:(340,280)	TimingSlack=0
+		pin:	CLK:(350,210)	TimingSlack=0
+	QpinDelay:	2
+	gate_power:	17
